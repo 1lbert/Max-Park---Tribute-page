@@ -1,0 +1,90 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
+
+body { 
+    background-color: rgba(252, 252, 252, 0.863);
+}
+
+main { 
+    /* width: 90%; */
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: max(300px,70%);
+    border-radius: 1rem;
+}
+
+header { 
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.image-section { 
+    text-align: center;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    border-radius: 1em;
+}
+
+.image-section img { 
+    height: auto;
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: max(300px,100%);
+}
+
+.image-section p { 
+    margin: auto;
+}
+
+img:hover { 
+    transition: all 0.5s ease;
+    /* transform: translate(0, -10px); */
+    width: 101%;
+}
+
+.about-max { 
+    margin: auto;
+}
+
+#about-max { 
+    padding: 1rem;
+    width: 100%;
+    text-align: justify;
+}
+
+#about-max li { 
+    margin-left: 20px;
+}
+
+
+.quote { 
+    text-align: center;
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 8px;
+    padding: 1rem 0;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.author { 
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    font-style: oblique;
+}
+
+.outro { 
+    text-align:  center;
+    margin: auto;
+}
+
+footer { 
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+
